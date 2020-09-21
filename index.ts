@@ -229,5 +229,5 @@ export {
   ZoomBehavior,
   ZoomedElementBaseType,
   ZoomScale,
-  ZoomTransform
+  ZoomTransform,
 } from './src/bundle-d3';

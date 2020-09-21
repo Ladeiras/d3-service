@@ -1,6 +1,6 @@
 {
   "name": "d3-service",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A D3 service for use with Angular.",
   "main": "index.js",
   "jsnext:main": "index.js",

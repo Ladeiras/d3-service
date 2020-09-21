@@ -9,9 +9,7 @@
     ],
     "baseUrl": ".",
     "outDir": "./esm",
-    "rootDir": ".",
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": false
+    "rootDir": "."
   }
 }
 

@@ -4,7 +4,8 @@
     "stripInternal": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
     "moduleResolution": "node",
     "sourceMap": true,
     "inlineSources": true

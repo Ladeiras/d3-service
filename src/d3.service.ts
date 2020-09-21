@@ -9,7 +9,7 @@ export class D3Service {
   }
 
   get d3() {
-    return ((window as any)['d3']);
+    return (window as any)['d3'];
   }
 
   get lasso() {
