@@ -9,6 +9,8 @@
     ],
     "baseUrl": ".",
     "outDir": ".",
-    "rootDir": "."
+    "rootDir": ".",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "d3-ng2-service",
-  "version": "2.2.0",
+  "name": "d3-service",
+  "version": "1.0.15",
   "description": "A D3 service for use with Angular.",
   "main": "index.js",
   "jsnext:main": "index.js",
@@ -58,10 +58,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomwanzek/d3-ng2-service"
+    "url": "https://github.com/Ladeiras/d3-service"
   },
   "bugs": {
-    "url": "https://github.com/tomwanzek/d3-ng2-service/issues"
+    "url": "https://github.com/Ladeiras/d3-service/issues"
   },
   "license": "MIT",
   "dependencies": {
@@ -96,6 +96,7 @@
     "@types/d3-transition": "1.1",
     "@types/d3-voronoi": ">=1.1.7 <1.2.0",
     "@types/d3-zoom": "1.7",
+    "@types/robust-point-in-polygon": "^1.0.1",
     "d3-array": "1.2",
     "d3-axis": "1.0",
     "d3-brush": "1.0",
@@ -112,6 +113,7 @@
     "d3-geo": "1.10",
     "d3-hierarchy": "1.1",
     "d3-interpolate": "1.1",
+    "d3-lasso": "0.0.5",
     "d3-path": "1.0",
     "d3-polygon": "1.0",
     "d3-quadtree": "1.0",
@@ -126,7 +128,8 @@
     "d3-timer": "1.0",
     "d3-transition": "1.1",
     "d3-voronoi": "1.1",
-    "d3-zoom": ">=1.7.1 <1.8"
+    "d3-zoom": ">=1.7.1 <1.8",
+    "robust-point-in-polygon": "^1.0.3"
   },
   "peerDependencies": {
     "@angular/core": "^5.0 || ^4.0 || ^2.0"
